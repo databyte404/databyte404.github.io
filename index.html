@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Ingeniería en Software</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
+</head>
+<body class="cnplf cz8nf c9loe cum4w cwh80" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-delay="0">
+    <div class="chip0 cbk2v cuk8q clv5h">
+        <main class="cxgjn">
+            <section class="c8a4e clv5h">
+                <div class="c5sfa c307p c8igq cpg49 c5n0y cavhb cigfq c4wey ckoll cn6f7 cma1x" aria-hidden="true"></div>
+                <div class="c5sfa c307p c1sv4 cavhb cnmzr" aria-hidden="true">
+                    <img src="./assets/img/hero-illustration.svg" class="cy2lr" width="2143" height="737" alt="Hero Illustration">
+                </div>
+                <div class="c8a4e cbl28 c0g2c coaq6 cb0ik">
+                    <div class="cv5m6 czfa1 cg2ig c2e3f">
+                        <div class="cbl28 czcad ckxd8 c4qns czwux cohxx">
+                            <div data-aos="zoom-out" class="aos-init aos-animate">
+                                <div class="c8a4e ciljg cmgtq czrr8 c4a1n coaq6 cld06 cimbm clnec cm1n3 cv4y4 cjzl6 cfgdq cfqr8 ctz45 cyb34 c6760 cs42d ca9no">
+                                    <div class="ckdyj">Mario Guillermo Benítez. <a class="cpfyo c4mnq cazq3 ce7rf cdm1x c6m7s ckwz7 c76qn" href="./Blog/Home.html" target="_blank">Blog <span class="cfe40 cr1tk cv73b c6m7s ckwz7 ccx8x">-&gt;</span></a></div>
+                                </div>
+                            </div>
+                            <h1 class="cx0om ciljg cejd3 aos-init aos-animate" data-aos="zoom-out" data-aos-delay="100">Ingeniería en Software</h1>
+                            <p class="cyl8w cbqc4 ckdyj aos-init aos-animate" data-aos="zoom-out" data-aos-delay="200">Propuesta de proyecto informático para la resolución problemas de aprendizaje del desarrollo de software.</p>
+                            <div class="cbl28 cn9oi cu0vn cdjip c4t8e c9mpo cvuia cqmlm cjwgj aos-init aos-animate" data-aos="zoom-out" data-aos-delay="300">
+                                <div>
+                                    <a class="cxykh c0ayg c4wey cl6ef cf4pm cqbpd cxmkl c4aul c76qn" onclick="copyUrl()" href="#"> Compartir <span class="cfe40 cr1tk c56im cv73b c6m7s ckwz7 ccx8x">-&gt;</span>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a class="cxykh c0ayg c4wey ckoll c2xk9 clnec cxmkl crzek" id="descargarPDF" href="#">Descargar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="c8a4e">
+                <div class="c5sfa c307p cpg49 c5n0y cqa37 cavhb cigfq cltl0 ckoll cn6f7 cma1x" aria-hidden="true"></div>
+                <div class="c307p c1sv4 cqa37 cavhb ck5f6" aria-hidden="true">
+                    <img src="./assets/img/features-illustration.svg" class="cy2lr" width="608" height="305" alt="Illustration">
+                </div>
+                <div class="cbl28 c0g2c coaq6 cb0ik">
+                    <div class="cyo0e c2n62" style="display: flex; justify-content: center;">
+                        <iframe src="./assets/pdf/Proyecto-Ingenieria-de-software.pdf" width="800" height="600"></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer style="text-align: center; margin: 20px;">
+            <p>&copy; 2024 Todos los derechos reservados</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/js/app.js"></script>
+    <script>
+        // Descarga del PDF
+        document.getElementById("descargarPDF").addEventListener("click", function() {
+            var pdfURL = "./assets/pdf/Proyecto-Ingenieria-de-software.pdf";
+            var link = document.createElement("a");
+            link.href = pdfURL;
+            link.download = "Proyecto Ingenieria de software.pdf";
+            link.click();
+        });
+    </script>
+</body>
+</html>
